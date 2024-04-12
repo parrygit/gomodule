@@ -1,0 +1,3 @@
+module github.com/parrygit/gomodule
+
+go 1.22.1
