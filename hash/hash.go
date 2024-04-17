@@ -9,6 +9,7 @@ func Md5(str string) string {
 	h := md5.New()
 	h.Write([]byte(str))
 	re := h.Sum(nil)
-	md5Str := fmt.Sprintf("#{%s}\n", re)
+	fmt.Println(re)
+	md5Str := fmt.Sprintf("#{re}\n")
 	return md5Str
 }
